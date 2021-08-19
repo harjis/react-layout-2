@@ -5,7 +5,7 @@ import { List } from "../List/List";
 import { ReviewHeader } from "../ReviewHeader/ReviewHeader";
 
 export const Review = () => {
-  const left = <List items={getLeftSideItems()} />;
+  const left = <List items={getLeftSideItems(3)} />;
   return (
     <div className={s.container}>
       <ReviewHeader />
