@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.leftContainer {
+    border-right: 1px solid grey;
+    width: 300px;
+}
