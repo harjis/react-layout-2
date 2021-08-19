@@ -1,12 +1,14 @@
+import s from "./List.module.css";
+
 type Props = {
   items: string[];
 };
 export const List = (props: Props) => {
   return (
-    <ul>
+    <div className={s.container}>
       {props.items.map((item, i) => {
-        return <li key={i}>{item}</li>;
+        return <div key={i}>{item}</div>;
       })}
-    </ul>
+    </div>
   );
 };
