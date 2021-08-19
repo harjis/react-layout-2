@@ -5,7 +5,6 @@
 
 .leftContainer {
     display: flex;
-    overflow-y: auto;
     border-right: 1px solid grey;
     width: 300px;
 }

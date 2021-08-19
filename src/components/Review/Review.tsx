@@ -6,7 +6,7 @@ import { ReviewHeader } from "../ReviewHeader/ReviewHeader";
 
 export const Review = () => {
   const left = <List items={getLeftSideItems()} />;
-  return <Split left={left} right={<div>righ</div>} />;
+  return <Split left={left} right={<div>right</div>} />;
   // return (
   //   <div className={s.container}>
   //     <ReviewHeader />
