@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    overflow: auto;
+    overflow: hidden;
     height: 100%;
 }
 
@@ -8,4 +8,10 @@
     display: flex;
     border-right: 1px solid grey;
     width: 300px;
+    flex-shrink: 0;
+}
+
+.rightContainer {
+    width: 100%;
+    overflow: hidden;
 }

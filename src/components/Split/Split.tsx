@@ -10,7 +10,7 @@ export const Split = (props: Props) => {
   return (
     <div className={s.container}>
       <div className={s.leftContainer}>{props.left}</div>
-      <div>{props.right}</div>
+      <div className={s.rightContainer}>{props.right}</div>
     </div>
   );
 };
