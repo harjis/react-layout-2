@@ -5,7 +5,6 @@
 
     display: inline-block;
     border-spacing: 0;
-    border: 1px solid black;
 }
 
 .cell {
@@ -23,6 +22,7 @@
 
 .columnHeader {
     background-color: white;
+    border-top: 1px solid black;/* TODO Should this be here? */
 }
 
 .stickyRowHeader {
